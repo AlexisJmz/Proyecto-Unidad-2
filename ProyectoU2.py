@@ -73,11 +73,48 @@ match o:
             print("Seleccione otra opcion")
 # CODIGO DE CYNTHIA
     case '3':
+        pass
     case '4':
+        pass
 # CODIGO DE XIMENA
     case '5':
+        pass
     case '6':
+        pass
 # CODIGO DE ALEXIS
     case '7':
+        serie = []
+        print("Cuantos numeros ingresara?: ")
+        o = int(input())
+        i = 0 
+        while i < o:
+            print ("Valor:", i + 1 )
+            val = float(input())
+            serie.append(val)
+            i+=1
+        media = sum(serie) / len(serie)
+        print("el promedio es: ",media) 
     case '8':
+        serie = []
+        print("Cuantos numeros ingresara?: ")
+        o = int(input())
+        i = 0 
+        while i < o:
+            print ("Valor:", i + 1 )
+            num = int(input())
+            serie.append(num)
+            i+=1
+
+            min = serie[0]
+            for a in serie:
+                if a < min:
+                    min = a
+            
+            max = serie[0]
+            for a in serie:
+                if a > max:
+                    max = a
+            
+        print("La minima es:",min,"y la maxima es:",max)
     case '9':
+        exit()
