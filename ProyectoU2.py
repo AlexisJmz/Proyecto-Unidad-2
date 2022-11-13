@@ -77,7 +77,6 @@ match o:
         num1 = int(input("Ingrese su primer numero:"))
         num2 = int(input("Ingrese su segundo numero:"))
         print("La division entre",num1,"/",num2,"es:", num1/num2)
-        pass
     case '4':
         num = int(input("Ingrese el su numero:"))
         factorial = 1
@@ -89,7 +88,6 @@ match o:
             for i in range(1,num+1):
                 factorial = factorial*i
             print("El factorial de",num,"es:",factorial)
-            pass
 # CODIGO DE XIMENA
     case '5':
         tabla = int(input("Que tabla desea mostrar:"))
