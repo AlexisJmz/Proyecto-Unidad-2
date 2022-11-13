@@ -78,9 +78,25 @@ match o:
         pass
 # CODIGO DE XIMENA
     case '5':
-        pass
+        num = int(input("Ingrese el numero al que desee elevar al cuadrado y al cubo:"))
+        print("El cuadrado de",num,"es:",num*num)
+        print("El cubo de",num,"es:",num*num*num)
     case '6':
-        pass
+        tabla = int(input("Que tabla desea mostrar:"))
+        if tabla >=1 and tabla <=10:
+            print(tabla,"x 1 =",tabla*1)
+            print(tabla,"x 2 =",tabla*2)
+            print(tabla,"x 3 =",tabla*3)
+            print(tabla,"x 4 =",tabla*4)
+            print(tabla,"x 5 =",tabla*5)
+            print(tabla,"x 6 =",tabla*6)
+            print(tabla,"x 7 =",tabla*7)
+            print(tabla,"x 8 =",tabla*8)
+            print(tabla,"x 9 =",tabla*9)
+            print(tabla,"x 10 =",tabla*10)
+        else:
+            print("Escoja un numero entre 1 y 10")
+            exit()
 # CODIGO DE ALEXIS
     case '7':
         serie = []
