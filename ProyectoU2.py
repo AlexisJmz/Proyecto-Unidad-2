@@ -90,7 +90,7 @@ match o:
             print(tabla,"x 4 =",tabla*4)
             print(tabla,"x 5 =",tabla*5)
             print(tabla,"x 6 =",tabla*6)
-            print(tabla,"x 7 =",tabla*7)
+            print(tabla,"x 7 =",tabla*7) 
             print(tabla,"x 8 =",tabla*8)
             print(tabla,"x 9 =",tabla*9)
             print(tabla,"x 10 =",tabla*10)
